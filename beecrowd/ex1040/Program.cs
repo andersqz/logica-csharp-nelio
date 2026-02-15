@@ -32,7 +32,7 @@ class Program
                 notaExame = Double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
                 System.Console.WriteLine($"Nota exame: {notaExame}");
                 mediaRecalc = (media + notaExame) / 2;
-                if (mediaRecalc > 5.0) {
+                if (mediaRecalc >= 5.0) {
                     System.Console.WriteLine("Aluno aprovado");
                     System.Console.WriteLine($"Media final: {mediaRecalc}");
                 }
