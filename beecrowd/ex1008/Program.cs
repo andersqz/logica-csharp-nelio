@@ -12,7 +12,5 @@ class Program
         double salary = hourlyWage * hours;
         System.Console.WriteLine($"Number = {number}");
         System.Console.WriteLine($"Salary = {salary.ToString("F2", CultureInfo.InvariantCulture)}");
-
-
     }
 }

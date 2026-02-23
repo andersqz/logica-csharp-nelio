@@ -5,6 +5,7 @@ class Program
 {
     static void Main()
     {
+        
         decimal n = decimal.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
 
         int valor = (int)(n * 100);
